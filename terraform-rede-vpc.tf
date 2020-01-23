@@ -6,6 +6,6 @@ provider "google" {
   zone    = "us-central1-c"
 }
 
-resource "google_compute_network" "vpc_network" {
+resource "google_compute_network" "vpc_estudo" {
   name = "terraform-network"
 }
